@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
   <title>Meteora</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -12,9 +13,11 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-md bg-body-tertiary">
+  <nav class="navbar navbar-expand-md bg-black navbar-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Meteora</a>
+      <a class="navbar-brand" href="#">
+        <h1 class="m-0"><img class="d-block" src="assets/logo-meteora.png" alt="Logo da loja Meteora"></h1>
+      </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -36,8 +39,8 @@
 
         </ul>
         <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Digite o produto" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+          <input class="form-control me-2 rounded-0" type="search" placeholder="Digite o produto" aria-label="Search">
+          <button class="btn btn-outline-light rounded-0" type="submit">Buscar</button>
         </form>
       </div>
     </div>
@@ -54,42 +57,36 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
-          xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide"
-          preserveAspectRatio="xMidYMid slice" focusable="false">
-          <title>Placeholder</title>
-          <rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#555" dy=".3em">First
-            slide</text>
-        </svg>
+        <img class="img-fluid d-md-none" src="assets/Mobile/banner1-mobile.png"
+          alt="Modelo feminina vestindo blusa rosa fluorescente, em fundo lilás">
+        <img class="img-fluid d-none d-md-block d-xl-none" src="assets/Tablet/banner1-tablet.png"
+          alt="Modelo feminina vestindo blusa rosa fluorescente, em fundo lilás">
+        <img class="img-fluid d-none d-xl-block" src="assets/Desktop/banner1-desktop.png"
+          alt="Modelo feminina vestindo blusa rosa fluorescente, em fundo lilás">
+      </div>
+      <div class="carousel-item">
+        <img class="img-fluid d-md-none" src="assets/Mobile/banner2-mobile.png"
+          alt="Modelo feminina utilizando óculos escuros e vestindo conjunto esportivo de blusa e calça na cor preta, sentada em um sofá preto em um fundo rosa.">
+        <img class="img-fluid d-none d-md-block d-xl-none" src="assets/Tablet/banner2-tablet.png"
+          alt="Modelo feminina utilizando óculos escuros e vestindo conjunto esportivo de blusa e calça na cor preta, sentada em um sofá preto em um fundo rosa.">
+        <img class="img-fluid d-none d-xl-block" src="assets/Desktop/banner2-desktop.png"
+          alt="Modelo feminina utilizando óculos escuros e vestindo conjunto esportivo de blusa e calça na cor preta, sentada em um sofá preto em um fundo rosa.">
         <div class="carousel-caption d-none d-md-block">
-          <h5>First slide label</h5>
-          <p>Some representative placeholder content for the first slide.</p>
+
+          <h5 class="fs-1">COLEÇÃO ATEMPORAL</h5>
+          <p class="fs-4">Estilo e qualidade para durar.</p>
         </div>
       </div>
       <div class="carousel-item">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
-          xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Second slide"
-          preserveAspectRatio="xMidYMid slice" focusable="false">
-          <title>Placeholder</title>
-          <rect width="100%" height="100%" fill="#666"></rect><text x="50%" y="50%" fill="#444" dy=".3em">Second
-            slide</text>
-        </svg>
+        <img class="img-fluid d-md-none" src="assets/Mobile/banner3-mobile.png"
+          alt="Modelo masculino vestindo chapéu preto, blazer cinza, camisa social branca, gravata borboleta na cor preta, óculos com lente transparente e armação na cor preta, além de um cordão prateado, em um fundo laranja.">
+        <img class="img-fluid d-none d-md-block d-xl-none" src="assets/Tablet/banner3-tablet.png"
+          alt="Modelo masculino vestindo chapéu preto, blazer cinza, camisa social branca, gravata borboleta na cor preta, óculos com lente transparente e armação na cor preta, além de um cordão prateado, em um fundo laranja.">
+        <img class="img-fluid d-none d-xl-block" src="assets/Desktop/banner3-desktop.png"
+          alt="Modelo masculino vestindo chapéu preto, blazer cinza, camisa social branca, gravata borboleta na cor preta, óculos com lente transparente e armação na cor preta, além de um cordão prateado, em um fundo laranja.">
         <div class="carousel-caption d-none d-md-block">
-          <h5>Second slide label</h5>
-          <p>Some representative placeholder content for the second slide.</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
-          xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Third slide"
-          preserveAspectRatio="xMidYMid slice" focusable="false">
-          <title>Placeholder</title>
-          <rect width="100%" height="100%" fill="#555"></rect><text x="50%" y="50%" fill="#333" dy=".3em">Third
-            slide</text>
-        </svg>
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Third slide label</h5>
-          <p>Some representative placeholder content for the third slide.</p>
+          <h5 class="fs-1">COLEÇÃO ATEMPORAL</h5>
+          <p class="fs-4">Alto impacto visual, baixo impacto ambiental!</p>
         </div>
       </div>
     </div>
@@ -114,8 +111,8 @@
           <rect width="100%" height="100%" fill="#868e96"></rect>
           <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
         </svg>
-        <div class="card-header">
-          <p class="text-center">Categoria</p>
+        <div class="card-header bg-black bg-black">
+          <p class="text-center text-light m-0">Categoria</p>
         </div>
       </div>
     </div>
@@ -127,8 +124,8 @@
           <rect width="100%" height="100%" fill="#868e96"></rect>
           <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
         </svg>
-        <div class="card-header">
-          <p class="text-center">Categoria</p>
+        <div class="card-header bg-black">
+          <p class="text-center text-light m-0">Categoria</p>
         </div>
       </div>
     </div>
@@ -140,8 +137,8 @@
           <rect width="100%" height="100%" fill="#868e96"></rect>
           <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
         </svg>
-        <div class="card-header">
-          <p class="text-center">Categoria</p>
+        <div class="card-header bg-black">
+          <p class="text-center text-light m-0">Categoria</p>
         </div>
       </div>
     </div>
@@ -153,8 +150,8 @@
           <rect width="100%" height="100%" fill="#868e96"></rect>
           <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
         </svg>
-        <div class="card-header">
-          <p class="text-center">Categoria</p>
+        <div class="card-header bg-black">
+          <p class="text-center text-light m-0">Categoria</p>
         </div>
       </div>
     </div>
@@ -166,8 +163,8 @@
           <rect width="100%" height="100%" fill="#868e96"></rect>
           <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
         </svg>
-        <div class="card-header">
-          <p class="text-center">Categoria</p>
+        <div class="card-header bg-black">
+          <p class="text-center text-light m-0">Categoria</p>
         </div>
       </div>
     </div>
@@ -179,8 +176,8 @@
           <rect width="100%" height="100%" fill="#868e96"></rect>
           <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
         </svg>
-        <div class="card-header">
-          <p class="text-center">Categoria</p>
+        <div class="card-header bg-black">
+          <p class="text-center text-light m-0">Categoria</p>
         </div>
       </div>
     </div>
@@ -205,7 +202,7 @@
           </p>
           <p class="fs-4 fw-bold">R$30,00</p>
           <div class="w-100 text-center my-2">
-            <a href="#" class="btn btn-primary w-50 text-center">Comprar</a>
+            <a href="#" class="btn btn-primary w-50 text-center btn-lilas">Comprar</a>
           </div>
         </div>
       </div>
@@ -226,7 +223,7 @@
           </p>
           <p class="fs-4 fw-bold">R$30,00</p>
           <div class="w-100 text-center my-2">
-            <a href="#" class="btn btn-primary w-50 text-center">Comprar</a>
+            <a href="#" class="btn btn-primary w-50 text-center btn-lilas">Comprar</a>
           </div>
         </div>
       </div>
@@ -247,7 +244,7 @@
           </p>
           <p class="fs-4 fw-bold">R$30,00</p>
           <div class="w-100 text-center my-2">
-            <a href="#" class="btn btn-primary w-50 text-center">Comprar</a>
+            <a href="#" class="btn btn-primary w-50 text-center btn-lilas">Comprar</a>
           </div>
         </div>
       </div>
@@ -268,7 +265,7 @@
           </p>
           <p class="fs-4 fw-bold">R$30,00</p>
           <div class="w-100 text-center my-2">
-            <a href="#" class="btn btn-primary w-50 text-center">Comprar</a>
+            <a href="#" class="btn btn-primary w-50 text-center btn-lilas">Comprar</a>
           </div>
         </div>
       </div>
@@ -289,7 +286,7 @@
           </p>
           <p class="fs-4 fw-bold">R$30,00</p>
           <div class="w-100 text-center my-2">
-            <a href="#" class="btn btn-primary w-50 text-center">Comprar</a>
+            <a href="#" class="btn btn-primary w-50 text-center btn-lilas">Comprar</a>
           </div>
         </div>
       </div>
@@ -310,34 +307,34 @@
           </p>
           <p class="fs-4 fw-bold">R$30,00</p>
           <div class="w-100 text-center my-2">
-            <a href="#" class="btn btn-primary w-50 text-center">Comprar</a>
+            <a href="#" class="btn btn-primary w-50 text-center btn-lilas">Comprar</a>
           </div>
         </div>
       </div>
     </div>
   </div>
 
-  <section class="pb-4 container">
+  <section class="pb-4 bg-black text-light">
     <h2 class="text-center">Conheça todas as nossas facilidades</h2>
     <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center gap-3 px-3">
       <div class="div-facilidades d-flex align-items-center">
-        <div><i class="bi bi-x-diamond fs-1"></i></div>
+        <div><i class="bi bi-x-diamond fs-1 verde-florescente"></i></div>
         <div>
-          <div class="ms-3 mb-1">Pague pelo pix</div>
+          <div class="ms-3 mb-1 verde-florescente">Pague pelo pix</div>
           <div class="fonte-menor ms-3">Ganhe 50% OFF em pagamentos via pix.</div>
         </div>
       </div>
       <div class="div-facilidades d-flex align-items-center">
-        <div><i class="bi bi-arrow-repeat fs-1"></i></div>
+        <div><i class="bi bi-arrow-repeat fs-1 verde-florescente"></i></div>
         <div>
-          <div class="ms-3 mb-1">Troca grátis</div>
+          <div class="ms-3 mb-1 verde-florescente">Troca grátis</div>
           <div class="fonte-menor ms-3">Fique livre para trocar em até 30 dias.</div>
         </div>
       </div>
       <div class="div-facilidades d-flex align-items-center">
-        <div><i class="bi bi-flower1 fs-1"></i></div>
+        <div><i class="bi bi-flower1 fs-1 verde-florescente"></i></div>
         <div>
-          <div class="ms-3 mb-1">Sustentabilidade</div>
+          <div class="ms-3 mb-1 verde-florescente">Sustentabilidade</div>
           <div class="fonte-menor ms-3">Moda responsável, que respeita o meio ambiente.</div>
         </div>
       </div>
@@ -358,8 +355,9 @@
     </form>
   </section>
 
-  <footer class="text-center bg-secondary">
-    <p class="py-3 mb-0">2023 <i class="bi bi-c-circle"></i> Desenvolvido por Alura | Projeto fictício sem fins comerciais.</p>
+  <footer class="text-center bg-black text-light">
+    <p class="py-3 mb-0">2023 <i class="bi bi-c-circle"></i> Desenvolvido por Alura | Projeto fictício sem fins
+      comerciais.</p>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
