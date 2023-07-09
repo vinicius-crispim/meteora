@@ -13,3 +13,8 @@
 .btn-lilas {
     background: #9353FF;
 }
+
+.btn-lilas:hover {
+    transition: .3s;
+    background: #7322ff;
+}
